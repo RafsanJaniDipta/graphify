@@ -40,3 +40,11 @@ paper/
 
 # macOS Finder metadata
 .DS_Store
+
+# Environment variables & secrets (added by GitHub Guardian)
+.env
+.env.*
+*.env
+!.env.example
+!.env.sample
+.envrc
